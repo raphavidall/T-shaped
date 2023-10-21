@@ -1,0 +1,69 @@
+div{
+    border-color: #f8de1c;
+    border-radius: 8px;
+    display: flex;
+    justify-content:center;
+}
+
+
+p {
+    color: rgb(255, 255, 255);
+    border-color:  rgb(57, 4, 107);
+    border-style: groove;
+    border-radius: 6px;
+    background-color: #73088ef3;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.hardskill{
+    border-color: rgba(16, 10, 3, 0.659);
+    border-radius: 4px;
+    background-color: #f8e02cf9;
+}
+
+.softskill{
+    color: #fafafa;
+    border-color: rgba(16, 10, 3, 0.659);
+    border-radius: 4px;
+    background-color: #af1369b3;
+}
+
+#conhecimentos-correlatos{
+    background-color: rgba(137, 43, 226, 0.108);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    flex-grow: 1;
+    align-self: flex-start;
+}
+
+#desenvolvimento-software{
+    background-color: rgb(57, 4, 107);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    flex-grow: 1;
+}
+
+#bagagem-apoio{
+    background-color: rgba(137, 43, 226, 0.108);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    flex-grow: 1;
+    align-self: flex-start;
+}
+
+.rodape{
+    color: #060606;
+    background-color: beige;
+    border: none;
+}
